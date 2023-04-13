@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <!-- INFORMACION DE LA PAGINA -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOD OF WAR</title>
+</head>
+
+<body style="margin: 0; background-color: #241e36;">
+
+    <!--ENCABEZADO DE LA PAGINA-->
+    <header class="header" style="display: flex; height: 80px; justify-content: space-between;
+        background-color: #141020; align-items: center; padding: 10px;">
+        <div style="display: flex; align-items: center; color: rgb(255, 255, 255);" class="logo">
+            <img src="img/logo gow.png" alt="logo de GOW" style="height: 70px; margin-right: 30px;
+            margin-left: 20px;">
+            <h1 class="nombre-pagina">GOD OF WAR</h2>
+        </div>
+        <nav>
+            <a href="index.html" style="text-decoration: none; color: goldenrod; font-weight: 600;
+                padding-right: 30px;">INICIO</a>
+            <a href="registro.html" style="text-decoration: none; color: goldenrod; font-weight: 600;
+                padding-right: 30px;">REGISTRARSE</a>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO DE LA PAGINA -->
+    <main>
+
+        <div class="banner" style="width: 100%;">
+
+            <img src="img/kratos banner_2.jpg" alt="banner kratos" height="300px"
+                style="margin-left: 100px; margin-top: 20px;">
+
+        </div>
+
+        
+        <div style="display: flex; background-color: #141020; width: 450px; height: 600px; 
+        margin-left: 35%; margin-top: 50px;">
+
+            <section style=" padding: 50px;">
+                
+                
+
+                <form action="index.html" style="color: goldenrod; align-items: center;">
+                        
+                    <fieldset>
+                        <legend>Datos Personales:</legend>
+                        <br> <label for="edad">Edad:</label>
+                        <input type="number" id="edad" name="edad" min="17" max="100"> <br><br><br>
+                        
+                        <label for="genero"> Genero: </label> <br>
+                        <input type="radio" id="genero" name="genero" value="masculino"> Hombre<br>
+                        <input type="radio" name="genero" value="femenino"> Mujer<br>
+                        <input type="radio" name="genero" value="otro"> Otro <br><br><br>
+                        
+                        <label for="cumpleanos">Fecha de Nacimiento:</label>
+                        <input type="date" id="nacimiento" name="nacimiento"> <br><br><br>
+                        
+                        <label for="numerotel">Numero de telefono:</label>
+                        <input type="tel" id="numerotel" name="numerotel" 
+                        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br><br>
+
+                        <label for="correo">Correo Personal:</label>
+                        <input type="text" name="correo" id="correo"><br>
+                        <input type="checkbox" id="cbox" value="checkbox">
+                        
+                        <label for="cbox">Permito recibir notificacion a mi correo.</label>
+                        <br><br><br>
+                        <p><input type="submit" value="Enviar información"></p>
+
+                    </fieldset>
+                        
+                </form>
+                
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER DE LA PAGINA -->
+    <footer class="footer">
+        <table style="margin-top: 120px; width: 100%; height: 80px;
+        background-color: #141020;">
+            <tr>
+                <td>
+                    <h2 style="color: white; text-align: center;">
+                        KISHU | Copyright © 2023 Todos los derechos reservado |</h2>
+                </td>
+
+            </tr>
+        </table>
+    </footer>
+
+</body>
+
+</html>
