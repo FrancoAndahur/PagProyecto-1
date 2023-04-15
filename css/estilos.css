@@ -2,6 +2,7 @@
 body{
     margin: 0;
     background-color: #241e36;
+    font-family: blogger sans;
 }
 
 /* encabezado */
@@ -53,6 +54,7 @@ nav a:hover{
     display: flex; 
     justify-content: center; 
     margin-top: 100px;
+    margin-bottom: 70px;
     color: goldenrod;
 }
 
@@ -100,4 +102,57 @@ footer{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+/* formularios */
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form{
+    background-color:#1b162b; 
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px
+     5px 0 rgba(0, 0, 0, 0.25);
+    max-width: 360px; 
+    margin: 0 auto 100px; 
+    padding: 45px;
+    text-align: center;
+
+    
+        
+}
+
+.form input{
+    background: #d8d8d8;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    text-transform: uppercase; outline: 0;
+    background: #141020;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background: #241c41;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: white;
 }
