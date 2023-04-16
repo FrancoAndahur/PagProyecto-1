@@ -144,6 +144,20 @@ footer{
     font-size: 14px;
 }
 
+.form select{
+    background: #d8d8d8;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form label{
+    color:#d8d8d8;
+}
+
 .form button{
     text-transform: uppercase; outline: 0;
     background: #141020;
