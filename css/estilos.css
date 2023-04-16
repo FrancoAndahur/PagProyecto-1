@@ -89,6 +89,9 @@ nav a:hover{
     text-align: justify;
 }
 
+.contenido span{
+    color: red;
+}
 /* pie de pagina */
 
 footer{
@@ -106,10 +109,16 @@ footer{
 
 /* formularios */
 
-.login-page {
+.form-page {
     width: 360px;
     padding: 8% 0 0;
     margin: auto;
+}
+
+.titulo-form{
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .form{
@@ -152,7 +161,15 @@ footer{
     background: #241c41;
 }
 
+.form a{
+    color: goldenrod;
+}
+
+.form a:hover{
+    color: white;
+}
+
 .form .message {
     margin: 15px 0 0;
-    color: white;
+    color: #d8d8d8;
 }
