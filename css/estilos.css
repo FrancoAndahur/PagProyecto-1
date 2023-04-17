@@ -107,25 +107,49 @@ nav a:hover{
     color: red;
 }
 
+.separacion{
+    height: 15px;
+}
+
 /*ASIDE DE LA PAGINA*/
 
-main .aside1{
+.aside1{
     float: left;
-    width: 15%;
-    height: 500px;
+    width: 19%;
+    
     background-color:#211c31;
     padding: 2%;
     box-sizing: border-box;
+
 }
 
-main .aside2{
+aside img{
+    width: 180px;
+}
+
+aside p{
+    color: #b8b8b8;
+    text-align: justify;
+    font-size: 12px;
+}
+
+aside span{
+    color: goldenrod;
+}
+
+.separacion_aside{
+    height: 50px;
+}
+
+.aside2{
     float: right;
-    width: 15%;
+    width: 19%;
     height: 400px;
     background-color: #211c31;
     padding: 2%;
     box-sizing: border-box;
 }
+
 
 /* pie de pagina */
 
