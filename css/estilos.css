@@ -2,7 +2,7 @@
 body{
     margin: 0;
     background-color: #241e36;
-    font-family: blogger sans;
+    font-family: sans-serif;
 }
 
 /* encabezado */
@@ -20,6 +20,10 @@ header{
     display: flex; 
     align-items: center; 
     color: white;
+}
+
+.logo h1{
+    font-family: none;
 }
 
 .logo img{
@@ -59,7 +63,7 @@ nav a:hover{
 }
 
 .multimedia img{
-    margin-right: 80px;
+    margin-right: 210px;
 }
 
 
@@ -74,8 +78,7 @@ nav a:hover{
 .contenedor{
     background-color:#211c31;
     color: white;
-    width: 65%;
-
+    width: 60%;
     margin: auto;
     display: flex;
 
@@ -88,6 +91,7 @@ nav a:hover{
 .contenido p{
     text-align: justify;
 }
+
 
 .contenido span{
     color: red;
