@@ -330,11 +330,16 @@ footer{
     margin: auto;
 }
 
+/*Galeria de imagenes*/
 #galeria{
+    background-color: #211c31;
+    padding: 2%;
     margin: auto;
     display: flex;
-    width: 600px;
+    width: 55%;
     height: 430px;
+    box-sizing: border-box;
+    
 }
 
 #galeria img{
@@ -343,12 +348,14 @@ footer{
     object-fit: cover;
     opacity: .8;
     transition: .5s ease;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2),
+    0 5px 5px 0 rgba(0, 0, 0, 0.25);
 }
 
 #galeria img:hover{
     cursor: crosshair;
     width: 300px;
     opacity: 1;
-    filter: contrast(120%);
+    filter: contrast(110%);
 
 }
