@@ -1,7 +1,7 @@
 /* cuerpo */
 .fondo{
     margin: 0;
-    background-color: #241e36;
+    background-color: #1e1832;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,7 +13,7 @@ h2{
 
 /*header*/
 #header{
-    background-color: #141020;
+    background-color: #0b061a;
 }
 
 .logo {
@@ -33,13 +33,13 @@ h2{
 
 /*contenido lore con bs*/
 #contenido-m{
-    background-color: #211c31;
+    background-color: #1a132a;
     color: white;
     text-align: justify;
 }
 
 #contenido {
-    background-color: #211c31;
+    background-color: #1a132a;
     color: white;
     text-align: justify;
 }
@@ -50,7 +50,7 @@ h2{
 
 /*Contenido mult con bs*/
 #cuadro-mult{
-    background-color: #211c31;
+    background-color: #1a132a;
     color: goldenrod;
 }
 
@@ -107,7 +107,7 @@ footer{
     margin-top: 120px; 
     width: 100%; 
     height: 80px; 
-    background-color: #141020;
+    background-color: #0b061a;
 
     display: flex;
     color: white; 
@@ -123,14 +123,14 @@ footer{
 }
 
 #form-box{
-    background-color: #211c31;
+    background-color: #1a132a;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.25);
 }
 
 .form button{
-    background-color: #141020;
+    background-color: #0b061a;
     border: solid;
-    border-color: #141020;
+    border-color: #0b061a;
 }
 
 .form button:hover{
@@ -207,7 +207,7 @@ footer{
 
 /*Galeria de imagenes*/
 #galeria{
-    background-color: #211c31;
+    background-color: #1a132a;
     padding: 2%;
     margin: auto;
     display: flex;
