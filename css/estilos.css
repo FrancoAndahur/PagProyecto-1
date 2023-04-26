@@ -118,82 +118,38 @@ footer{
 
 /* formularios */
 
-.form-page {
-    width: 360px;
-    padding: 8% 0 0;
-    margin: auto;
-}
-
-.titulo-form{
+#titulo-form{
     color: white;
-    display: flex;
-    justify-content: center;
 }
 
-.form{
-    background-color:#1b162b; 
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px
-     5px 0 rgba(0, 0, 0, 0.25);
-    max-width: 360px; 
-    margin: 0 auto 100px; 
-    padding: 45px;
-    text-align: center;
-
-    
-        
-}
-
-.form input{
-    background: #d8d8d8;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 14px;
-}
-
-.form select{
-    background: #d8d8d8;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 14px;
-}
-
-.form label{
-    color:#d8d8d8;
+#form-box{
+    background-color: #211c31;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.25);
 }
 
 .form button{
-    text-transform: uppercase; outline: 0;
-    background: #141020;
-    width: 100%;
-    border: 0;
-    padding: 15px;
-    color: white;
-    font-size: 14px;
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
-    cursor: pointer;
+    background-color: #141020;
+    border: solid;
+    border-color: #141020;
 }
 
 .form button:hover{
-    background: #241c41;
+    background:goldenrod;
+    border-color: brown
 }
 
+.form{
+    text-align: center;
+}
 .form a{
     color: goldenrod;
 }
 
 .form a:hover{
-    color: white;
+    color: brown;
 }
 
-.form .message {
-    margin: 15px 0 0;
+#message {
     color: #d8d8d8;
 }
 
