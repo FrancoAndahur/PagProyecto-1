@@ -116,6 +116,23 @@ footer{
     align-items: center;
 }
 
+/* formulario modal */
+.modal-header{
+    display: flex;
+    background-color:#1a132a;
+    
+    
+}
+
+.modal-dialog{
+    background-color: goldenrod;
+}
+
+.modal-body{
+    background-color: #1a132a;
+}
+
+
 /* formularios */
 
 #titulo-form{
