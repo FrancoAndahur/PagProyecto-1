@@ -25,23 +25,6 @@ h2{
     0 5px 5px 0 rgba(0, 0, 0, 0.25);
 }
 
-/*contenido lore con bs*/
-#contenido-m{
-    background-color: #1a132a;
-    color: white;
-    text-align: justify;
-}
-
-#contenido {
-    background-color: #1a132a;
-    color: white;
-    text-align: justify;
-}
-
-#contenido-m span{
-  color: red;
-}
-
 /*Contenido mult con bs*/
 #cuadro-mult{
     background-color: #1a132a;

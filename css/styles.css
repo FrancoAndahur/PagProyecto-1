@@ -35,6 +35,23 @@
   color: #d8d8d8;
 }
 
+/*contenido lore con bs*/
+#contenido-m {
+  background-color: #1a132a;
+  color: white;
+  text-align: justify;
+}
+
+#contenido {
+  background-color: #1a132a;
+  color: white;
+  text-align: justify;
+}
+
+#contenido-m span {
+  color: red;
+}
+
 .fondo {
   margin: 0;
   background-color: #1e1832;
